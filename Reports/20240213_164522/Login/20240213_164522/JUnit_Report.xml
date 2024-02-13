@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="186.205" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="186.205" skipped="0" timestamp="13-02-2024T16:45:32" hostname="LENOVO - DESKTOP-SKHBD1C" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\git\\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_164522\\Login\\20240213_164522"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\git\\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_164522\\Login\\20240213_164522\\appium.log, C:\\Users\\LENOVO\\git\\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_164522\\Login\\20240213_164522\\appium_error.log, C:\\Users\\LENOVO\\git\\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\\Reports\\20240213_164522\\Login\\20240213_164522\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-SKHBD1C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.38.210"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login - Berhasil" time="73.161" classname="Test Cases/Login/Login - Berhasil" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:45:32 - [TEST_CASE][PASSED] - Test Cases/Login/Login - Berhasil: Test Cases/Login/Login - Berhasil
+
+13-02-2024T16:45:33 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:45:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T16:45:40 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T16:45:40 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\LENOVO\.appium
+
+13-02-2024T16:45:40 - [MESSAGE][INFO] - appium outlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium.log
+
+13-02-2024T16:45:40 - [MESSAGE][INFO] - appium errlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium_error.log
+
+13-02-2024T16:45:49 - [MESSAGE][INFO] - Appium server started on port 59,807
+
+13-02-2024T16:46:18 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:46:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:46:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:46:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.LinearLayout'
+
+13-02-2024T16:46:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.LinearLayout'
+
+13-02-2024T16:46:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:46:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:46:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), username, 0): Text 'Lalayeye' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:28 - [MESSAGE][PASSED] - Text 'Lalayeye' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:46:28 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T16:46:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T16:46:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:46:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), password, 0): Text '@lalayeye01A' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:46:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:34 - [MESSAGE][PASSED] - Text '@lalayeye01A' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:46:34 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T16:46:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T16:46:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.Button - LOGIN'
+
+13-02-2024T16:46:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.Button - LOGIN'
+
+13-02-2024T16:46:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:46:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:46:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:46:40 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T16:46:43 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T16:46:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login/Login - Berhasil' .
+
+13-02-2024T16:46:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login/Login - Berhasil' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login - Berhasil" time="55.898" classname="Test Cases/Login/Login - Berhasil" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:46:45 - [TEST_CASE][PASSED] - Test Cases/Login/Login - Berhasil: Test Cases/Login/Login - Berhasil
+
+13-02-2024T16:46:45 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:46:46 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T16:46:51 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T16:46:51 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\LENOVO\.appium
+
+13-02-2024T16:46:51 - [MESSAGE][INFO] - appium outlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium.log
+
+13-02-2024T16:46:51 - [MESSAGE][INFO] - appium errlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium_error.log
+
+13-02-2024T16:46:57 - [MESSAGE][INFO] - Appium server started on port 60,075
+
+13-02-2024T16:47:18 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:47:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:47:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:47:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.LinearLayout'
+
+13-02-2024T16:47:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.LinearLayout'
+
+13-02-2024T16:47:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), username, 0): Text 'hanams' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:26 - [MESSAGE][PASSED] - Text 'hanams' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText'
+
+13-02-2024T16:47:26 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T16:47:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T16:47:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:47:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), password, 0): Text 'Hanamaria23#' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:30 - [MESSAGE][PASSED] - Text 'Hanamaria23#' has been set to element 'Object Repository/Login Berhasil/android.widget.EditText (1)'
+
+13-02-2024T16:47:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T16:47:32 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T16:47:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.Button - LOGIN'
+
+13-02-2024T16:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.Button - LOGIN'
+
+13-02-2024T16:47:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:47:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Berhasil/android.widget.ImageView'
+
+13-02-2024T16:47:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T16:47:39 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T16:47:41 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login/Login - Berhasil' .
+
+13-02-2024T16:47:41 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login/Login - Berhasil' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Variation - Username Salah" time="56.516" classname="Test Cases/Login/Variation - Username Salah" status="PASSED">
+         <system-out><![CDATA[13-02-2024T16:47:41 - [TEST_CASE][PASSED] - Test Cases/Login/Variation - Username Salah: Test Cases/Login/Variation - Username Salah
+
+13-02-2024T16:47:41 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true): Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:47:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T16:47:47 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T16:47:47 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\LENOVO\.appium
+
+13-02-2024T16:47:47 - [MESSAGE][INFO] - appium outlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium.log
+
+13-02-2024T16:47:47 - [MESSAGE][INFO] - appium errlog: C:\Users\LENOVO\git\katalon-finalmobile-Zahwa-Aqila-Nabilia-S\Reports\20240213_164522\Login\20240213_164522\appium_error.log
+
+13-02-2024T16:47:57 - [MESSAGE][INFO] - Appium server started on port 60,326
+
+13-02-2024T16:48:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk'
+
+13-02-2024T16:48:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Gagal/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Login Gagal/android.widget.ImageView'
+
+13-02-2024T16:48:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Gagal/android.widget.ImageView'
+
+13-02-2024T16:48:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Gagal/android.widget.LinearLayout"), 0): Tapped on element 'Object Repository/Login Gagal/android.widget.LinearLayout'
+
+13-02-2024T16:48:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Gagal/android.widget.LinearLayout'
+
+13-02-2024T16:48:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Gagal/android.widget.EditText"), 0): Tapped on element 'Object Repository/Login Gagal/android.widget.EditText'
+
+13-02-2024T16:48:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Gagal/android.widget.EditText'
+
+13-02-2024T16:48:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Gagal/android.widget.EditText"), "Lalaye", 0): Text 'Lalaye' has been set to element 'Object Repository/Login Gagal/android.widget.EditText'
+
+13-02-2024T16:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:27 - [MESSAGE][PASSED] - Text 'Lalaye' has been set to element 'Object Repository/Login Gagal/android.widget.EditText'
+
+13-02-2024T16:48:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Gagal/android.widget.EditText (1)"), 0): Tapped on element 'Object Repository/Login Gagal/android.widget.EditText (1)'
+
+13-02-2024T16:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Gagal/android.widget.EditText (1)'
+
+13-02-2024T16:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Gagal/android.widget.EditText (1)"), "@lalayeye01A", 0): Text '@lalayeye01A' has been set to element 'Object Repository/Login Gagal/android.widget.EditText (1)'
+
+13-02-2024T16:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:30 - [MESSAGE][PASSED] - Text '@lalayeye01A' has been set to element 'Object Repository/Login Gagal/android.widget.EditText (1)'
+
+13-02-2024T16:48:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T16:48:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T16:48:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Login Gagal/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Login Gagal/android.widget.Button - LOGIN'
+
+13-02-2024T16:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T16:48:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Gagal/android.widget.Button - LOGIN'
+
+13-02-2024T16:48:32 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T16:48:36 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T16:48:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login/Variation - Username Salah' .
+
+13-02-2024T16:48:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login/Variation - Username Salah' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T16:45:32 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/Variation - Username Salah]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

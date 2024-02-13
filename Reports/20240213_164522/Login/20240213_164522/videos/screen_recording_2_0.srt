@@ -1,0 +1,48 @@
+1
+00:00:00,007 --> 00:00:32,438
+1. startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:00:32,440 --> 00:00:34,526
+5. tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0)
+
+3
+00:00:34,529 --> 00:00:35,931
+9. tap(findTestObject("Object Repository/Login Berhasil/android.widget.LinearLayout"), 0)
+
+4
+00:00:35,935 --> 00:00:37,609
+13. tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), 0)
+
+5
+00:00:37,613 --> 00:00:40,203
+17. setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText"), username, 0)
+
+6
+00:00:40,206 --> 00:00:42,138
+21. hideKeyboard()
+
+7
+00:00:42,141 --> 00:00:42,627
+25. tap(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), 0)
+
+8
+00:00:42,631 --> 00:00:45,039
+29. setText(findTestObject("Object Repository/Login Berhasil/android.widget.EditText (1)"), password, 0)
+
+9
+00:00:45,041 --> 00:00:46,783
+33. hideKeyboard()
+
+10
+00:00:46,787 --> 00:00:47,279
+37. tap(findTestObject("Object Repository/Login Berhasil/android.widget.Button - LOGIN"), 0)
+
+11
+00:00:47,283 --> 00:00:50,539
+41. tap(findTestObject("Object Repository/Login Berhasil/android.widget.ImageView"), 0)
+
+12
+00:00:50,545 --> 00:00:53,713
+45. closeApplication()
+
