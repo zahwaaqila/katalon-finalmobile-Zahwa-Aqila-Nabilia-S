@@ -25,17 +25,15 @@ Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.Linea
 
 Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.EditText'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login Berhasil/android.widget.EditText'), 'Lalayeye', 0)
+Mobile.setText(findTestObject('Object Repository/Login Berhasil/android.widget.EditText'), username, 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.EditText (1)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login Berhasil/android.widget.EditText (1)'), '@lalayeye01A', 0)
+Mobile.setText(findTestObject('Object Repository/Login Berhasil/android.widget.EditText (1)'), password, 0)
 
 Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.Button - LOGIN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.Button - LOGIN'), 0)
 

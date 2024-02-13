@@ -5,10 +5,45 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>eaa259b8-b822-4253-b00c-e9fdec49ff09</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d1aa067c-9ab8-467b-b687-2199a7f7cb32</testSuiteGuid>
+   <testCaseLink>
+      <guid>569a6db3-1161-4c1f-ba35-deeb4a36ac7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login - Berhasil</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5c763bc9-5954-4870-b261-dca6f1adcca8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5c763bc9-5954-4870-b261-dca6f1adcca8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>799975c2-464a-4a30-b7cc-1f8775f2c938</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c763bc9-5954-4870-b261-dca6f1adcca8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>617710ae-7aa3-490b-8dde-95b0d40239f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6502ea6-992f-48fc-b527-e9cdeaaaf61a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Variation - Username Salah</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
