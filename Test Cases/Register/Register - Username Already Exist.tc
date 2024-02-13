@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register - Username Already Exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2a93377-092c-4545-be3a-47453300a0f5</testCaseGuid>
+</TestCaseEntity>
