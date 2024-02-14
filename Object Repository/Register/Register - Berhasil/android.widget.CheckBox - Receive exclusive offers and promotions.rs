@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.CheckBox</value>
-      <webElementGuid>dd3e9f2c-a10a-49f8-b1a5-794d65e86938</webElementGuid>
+      <webElementGuid>10fa6802-08d7-420d-842d-f9ba68384404</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>5</value>
-      <webElementGuid>9d49d8a5-810a-49a4-aac9-a1687b60fbaa</webElementGuid>
+      <webElementGuid>db94c9cc-c70e-491d-a723-c010d699a8d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Receive exclusive offers and promotions</value>
-      <webElementGuid>29f8bb59-8a96-4810-9e54-bbb7144e3aa4</webElementGuid>
+      <webElementGuid>3f0f6e3c-da32-4ede-b5ed-5073365cff7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.Advantage.aShopping:id/checkBoxRecieveOffers</value>
-      <webElementGuid>ba696fc8-e5dd-4a03-901f-576b28c5dce3</webElementGuid>
+      <webElementGuid>e82dd386-6250-4d2c-9a33-47194ed810a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.Advantage.aShopping</value>
-      <webElementGuid>f0aa4b4c-9837-4a18-b94b-f383522ecab7</webElementGuid>
+      <webElementGuid>fcbcdf0f-52a5-4645-8e6c-47925274a1b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,15 +52,15 @@
       <name>checkable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>45f7125f-b9ef-47c4-b742-ef4c5d046534</webElementGuid>
+      <webElementGuid>4375962b-8142-409b-9c16-56adaca5eb88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>378ee1b3-ea09-4587-80ef-a33fd9f7218f</webElementGuid>
+      <value>true</value>
+      <webElementGuid>dd9516df-cf3e-44e9-8b92-9286c6fe4fee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>31c12ff4-618f-405f-b45a-9bbb07daae70</webElementGuid>
+      <webElementGuid>9c1b431f-4989-49e2-a634-12292ff4c6a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4e0c6be1-6a62-4b10-8960-3a569010549b</webElementGuid>
+      <webElementGuid>50957af8-4b30-42ec-b2dd-ecf221b8ae52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e2b3bb6e-5297-41ea-b85e-e55d4045f1e8</webElementGuid>
+      <webElementGuid>004991ed-f1f0-475b-ac48-b4b0bb16733e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6927ef11-f99f-40fd-ac98-3b5e8275d30f</webElementGuid>
+      <webElementGuid>2669f054-f978-4945-a194-a9bd95c5f930</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c245fadb-61af-4231-a1fc-895ddf737f65</webElementGuid>
+      <webElementGuid>5d75e388-7cc7-47b3-872f-3b5609a53d53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3f1cdd97-c9dd-4124-9ee7-ec483624e825</webElementGuid>
+      <webElementGuid>3991efd7-8077-4e90-9627-4a07195b8917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>db5d3796-1d64-4ac8-b9e4-63fe96fd27ca</webElementGuid>
+      <webElementGuid>e23b2fe8-6f36-4068-889b-0c2fdc3cd06a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5c857a2d-17e8-455e-926b-31ee9c5e905f</webElementGuid>
+      <webElementGuid>2f94d476-5aa7-457d-bbca-727d41218f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>x</name>
       <type>Main</type>
       <value>40</value>
-      <webElementGuid>efe2bfbe-1d2a-4429-b58c-6a453d892bb7</webElementGuid>
+      <webElementGuid>7c1fd5ac-6efc-408c-8503-6f6f7762baa5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>y</name>
       <type>Main</type>
       <value>874</value>
-      <webElementGuid>e66d0167-da68-487b-bfb3-7d51185df967</webElementGuid>
+      <webElementGuid>8a83376a-6f82-45a8-95e3-238db3cd58c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>width</name>
       <type>Main</type>
       <value>680</value>
-      <webElementGuid>8f94dc50-9d43-476d-b4cc-f6f212308159</webElementGuid>
+      <webElementGuid>21d686a7-7933-4341-bc94-c8848d1f9d33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>height</name>
       <type>Main</type>
       <value>73</value>
-      <webElementGuid>37f5a70a-870f-441f-96d9-ce659a7e447b</webElementGuid>
+      <webElementGuid>cbef25b9-11cd-4970-bcf5-07c914793718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[40,874][720,947]</value>
-      <webElementGuid>8e676cf1-47ca-4bd6-a753-a70ffaaf6752</webElementGuid>
+      <webElementGuid>3e601ec3-2ee5-4c24-9803-9417d7725e1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,7 +172,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b82faab0-3cba-4bbc-a4a9-965ee3287a84</webElementGuid>
+      <webElementGuid>a77c74b7-19f0-4166-9880-bf49033502fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -180,7 +180,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[2]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.CheckBox[1]</value>
-      <webElementGuid>620d1e53-9361-47c9-bce6-176be8ade4fc</webElementGuid>
+      <webElementGuid>eefc0397-4b56-4b91-8f9c-91ec1eebc907</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.CheckBox' and (@text = 'Receive exclusive offers and promotions' or . = 'Receive exclusive offers and promotions') and @resource-id = 'com.Advantage.aShopping:id/checkBoxRecieveOffers']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

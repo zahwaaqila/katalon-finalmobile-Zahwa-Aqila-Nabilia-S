@@ -52,11 +52,19 @@ Mobile.setText(findTestObject('Object Repository/Register/Register - Username Al
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/Register/Register - Username Already Exist/android.widget.CheckBox - Receive exclusive offers and promotions'), 
-    0)
+Mobile.scrollToText('Receive exclusive offers and promotions')
 
-Mobile.tap(findTestObject('Object Repository/Register/Register - Username Already Exist/android.widget.CheckBox - I agree to the Advantage.com Conditions'), 
-    0)
+if (Mobile.verifyElementChecked(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions'), 
+    0) == false) {
+    Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions'), 
+        0)
+} else if (Mobile.verifyElementChecked(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions'), 
+    0 ) == false) {
+    Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions'), 
+        0)
+}else {
+	Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER'), 0)
+}
 
 Mobile.tap(findTestObject('Object Repository/Register/Register - Username Already Exist/android.widget.Button - REGISTER'), 
     0)

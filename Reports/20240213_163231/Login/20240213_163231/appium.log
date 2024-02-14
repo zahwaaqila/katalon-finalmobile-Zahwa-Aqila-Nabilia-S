@@ -1376,3 +1376,13 @@
 [38;5;48m[AndroidUiautomator2Driver@7e68 (db187b71)][0m Screen already unlocked, doing nothing
 [38;5;48m[AndroidUiautomator2Driver@7e68 (db187b71)][0m Starting 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity and waiting for 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity'
 [38;5;16m[AppiumDriver@a053][0m New AndroidUiautomator2Driver session created successfully, session db187b71-7291-49d6-847f-23d50827e43f added to master session list
+[38;5;48m[AndroidUiautomator2Driver@c5f8 (93787efc)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@a053][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@a053][0m Removing session '93787efc-5140-48f8-8b1a-7b4caa55fa4d' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@c5f8 (93787efc)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
+[38;5;48m[AndroidUiautomator2Driver@7e68 (db187b71)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@a053][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@a053][0m Removing session 'db187b71-7291-49d6-847f-23d50827e43f' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@7e68 (db187b71)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m com.Advantage.aShopping was not uninstalled, because it was not present on the device
