@@ -1,0 +1,124 @@
+1
+00:00:00,839 --> 00:01:13,695
+1. startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:01:13,709 --> 00:01:15,374
+5. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.ImageView"), 0)
+
+3
+00:01:15,376 --> 00:01:16,662
+9. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.LinearLayout"), 0)
+
+4
+00:01:16,664 --> 00:01:18,399
+13. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.TextView - SIGN UP TODAY"), 0)
+
+5
+00:01:18,401 --> 00:01:19,823
+17. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText"), 0)
+
+6
+00:01:19,826 --> 00:01:22,253
+21. setText(findTestObject("Register/Register - Berhasil/android.widget.TextView - USER NAME"), "Lilula", 0)
+
+7
+00:01:22,255 --> 00:01:23,206
+25. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (1)"), 0)
+
+8
+00:01:23,209 --> 00:01:25,431
+29. setText(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (1)"), "lilu@gmail.com", 0)
+
+9
+00:01:25,434 --> 00:01:27,834
+33. hideKeyboard()
+
+10
+00:01:27,836 --> 00:01:28,342
+37. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (2)"), 0)
+
+11
+00:01:28,344 --> 00:01:31,089
+41. setText(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (2)"), "L@la1", 0)
+
+12
+00:01:31,092 --> 00:01:33,088
+45. hideKeyboard()
+
+13
+00:01:33,090 --> 00:01:33,709
+49. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (3)"), 0)
+
+14
+00:01:33,713 --> 00:01:36,221
+53. hideKeyboard()
+
+15
+00:01:36,223 --> 00:01:38,465
+57. setText(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.EditText (3)"), "L@la1", 0)
+
+16
+00:01:38,467 --> 00:01:40,079
+61. hideKeyboard()
+
+17
+00:01:40,082 --> 00:01:46,090
+65. scrollToText("Receive exclusive offers and promotions")
+
+18
+00:01:46,093 --> 00:01:46,915
+69. if (verifyElementChecked(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions"), 0) == false)
+
+19
+00:01:46,916 --> 00:01:47,331
+3. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER"), 0)
+
+20
+00:01:47,333 --> 00:01:47,340
+73. timeout = 100
+
+21
+00:01:47,342 --> 00:01:47,350
+77. driver = getDriver()
+
+22
+00:01:47,353 --> 00:01:48,468
+81. toast = driver.findElementByXPath("//android.widget.Toast")
+
+23
+00:01:48,470 --> 00:01:48,476
+85. for ([i = 0, i < timeout, (i++)])
+
+24
+00:01:48,477 --> 00:01:48,481
+1. if (toast != null)
+
+25
+00:01:48,484 --> 00:01:52,572
+1. scrollToText("USER NAME")
+
+26
+00:01:52,574 --> 00:01:54,329
+5. setText(findTestObject("Register/Register - Berhasil/android.widget.TextView - USER NAME"), "" + i, 0)
+
+27
+00:01:54,332 --> 00:01:56,177
+9. hideKeyboard()
+
+28
+00:01:56,179 --> 00:02:01,510
+13. scrollToText("Receive exclusive offers and promotions")
+
+29
+00:02:01,512 --> 00:02:02,130
+17. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER"), 0)
+
+30
+00:02:02,133 --> 00:02:02,153
+5. timeout = 0
+
+31
+00:02:02,156 --> 00:02:05,351
+89. closeApplication()
+

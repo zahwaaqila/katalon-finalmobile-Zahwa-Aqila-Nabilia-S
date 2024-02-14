@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,14-02-2024 13:40:29,14-02-2024 13:44:23,3m - 54.592s,PASSED
+,,,,,,,
+Test Cases/Register/Register - Berhasil,,,,14-02-2024 13:40:29,14-02-2024 13:42:37,2m - 8.053s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 13:40:31,14-02-2024 13:41:43,1m - 12.843s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.ImageView""), 0)",,,,14-02-2024 13:41:43,14-02-2024 13:41:45,1.666s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.LinearLayout""), 0)",,,,14-02-2024 13:41:45,14-02-2024 13:41:46,1.285s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.TextView - SIGN UP TODAY""), 0)",,,,14-02-2024 13:41:46,14-02-2024 13:41:48,1.735s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText""), 0)",,,,14-02-2024 13:41:48,14-02-2024 13:41:50,1.425s,PASSED
+"setText(findTestObject(""Register/Register - Berhasil/android.widget.TextView - USER NAME""), ""Lilula"", 0)",,,,14-02-2024 13:41:50,14-02-2024 13:41:52,2.430s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (1)""), 0)",,,,14-02-2024 13:41:52,14-02-2024 13:41:53,0.951s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (1)""), ""lilu@gmail.com"", 0)",,,,14-02-2024 13:41:53,14-02-2024 13:41:55,2.224s,PASSED
+hideKeyboard(),,,,14-02-2024 13:41:55,14-02-2024 13:41:58,2.401s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (2)""), 0)",,,,14-02-2024 13:41:58,14-02-2024 13:41:58,0.508s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (2)""), ""L@la1"", 0)",,,,14-02-2024 13:41:58,14-02-2024 13:42:01,2.747s,PASSED
+hideKeyboard(),,,,14-02-2024 13:42:01,14-02-2024 13:42:03,1.997s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (3)""), 0)",,,,14-02-2024 13:42:03,14-02-2024 13:42:03,0.622s,PASSED
+hideKeyboard(),,,,14-02-2024 13:42:03,14-02-2024 13:42:06,2.509s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.EditText (3)""), ""L@la1"", 0)",,,,14-02-2024 13:42:06,14-02-2024 13:42:08,2.242s,PASSED
+hideKeyboard(),,,,14-02-2024 13:42:08,14-02-2024 13:42:10,1.614s,PASSED
+"scrollToText(""Receive exclusive offers and promotions"")",,,,14-02-2024 13:42:10,14-02-2024 13:42:16,6.010s,PASSED
+"if (verifyElementChecked(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions""), 0) == false)",,,,14-02-2024 13:42:16,14-02-2024 13:42:17,0.814s,PASSED
+"else if (verifyElementChecked(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions""), 0) == false)",,,,14-02-2024 13:42:17,14-02-2024 13:42:17,0.002s,PASSED
+else,,,,14-02-2024 13:42:17,14-02-2024 13:42:17,0.423s,PASSED
+timeout = 100,,,,14-02-2024 13:42:17,14-02-2024 13:42:17,0.006s,PASSED
+driver = getDriver(),,,,14-02-2024 13:42:17,14-02-2024 13:42:17,0.011s,PASSED
+"toast = driver.findElementByXPath(""//android.widget.Toast"")",,,,14-02-2024 13:42:17,14-02-2024 13:42:18,1.116s,PASSED
+"for ([i = 0, i < timeout, (i++)])",,,,14-02-2024 13:42:18,14-02-2024 13:42:32,13.686s,PASSED
+closeApplication(),,,,14-02-2024 13:42:32,14-02-2024 13:42:35,3.190s,PASSED
+Video,,,,14-02-2024 13:42:37,14-02-2024 13:42:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Register/Register - Username Already Exist,,,,14-02-2024 13:42:37,14-02-2024 13:44:23,1m - 46.077s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 13:42:37,14-02-2024 13:43:43,1m - 6.069s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.ImageView""), 0)",,,,14-02-2024 13:43:43,14-02-2024 13:43:46,2.125s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.LinearLayout""), 0)",,,,14-02-2024 13:43:46,14-02-2024 13:43:47,1.456s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.TextView - SIGN UP TODAY""), 0)",,,,14-02-2024 13:43:47,14-02-2024 13:43:49,1.585s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText""), 0)",,,,14-02-2024 13:43:49,14-02-2024 13:43:50,1.499s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText""), ""Lalayeye"", 0)",,,,14-02-2024 13:43:50,14-02-2024 13:43:53,2.691s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText (1)""), 0)",,,,14-02-2024 13:43:53,14-02-2024 13:43:54,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText (1)""), ""lalayeye@gmail.com"", 0)",,,,14-02-2024 13:43:54,14-02-2024 13:43:56,2.218s,PASSED
+hideKeyboard(),,,,14-02-2024 13:43:56,14-02-2024 13:43:58,2.049s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText (2)""), ""L@la1"", 0)",,,,14-02-2024 13:43:58,14-02-2024 13:44:00,2.106s,PASSED
+hideKeyboard(),,,,14-02-2024 13:44:00,14-02-2024 13:44:02,1.984s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText (3)""), 0)",,,,14-02-2024 13:44:02,14-02-2024 13:44:03,0.604s,PASSED
+hideKeyboard(),,,,14-02-2024 13:44:03,14-02-2024 13:44:05,1.883s,PASSED
+"setText(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.EditText (3)""), ""L@la1"", 0)",,,,14-02-2024 13:44:05,14-02-2024 13:44:07,2.243s,PASSED
+hideKeyboard(),,,,14-02-2024 13:44:07,14-02-2024 13:44:09,1.866s,PASSED
+"scrollToText(""Receive exclusive offers and promotions"")",,,,14-02-2024 13:44:09,14-02-2024 13:44:15,6.205s,PASSED
+"if (verifyElementChecked(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions""), 0) == false)",,,,14-02-2024 13:44:15,14-02-2024 13:44:16,0.873s,PASSED
+"else if (verifyElementChecked(findTestObject(""Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions""), 0) == false)",,,,14-02-2024 13:44:16,14-02-2024 13:44:16,0.003s,PASSED
+else,,,,14-02-2024 13:44:16,14-02-2024 13:44:16,0.422s,PASSED
+"tap(findTestObject(""Object Repository/Register/Register - Username Already Exist/android.widget.Button - REGISTER""), 0)",,,,14-02-2024 13:44:16,14-02-2024 13:44:18,1.701s,PASSED
+closeApplication(),,,,14-02-2024 13:44:18,14-02-2024 13:44:21,3.283s,PASSED
+Video,,,,14-02-2024 13:44:23,14-02-2024 13:44:23,0.001s,PASSED

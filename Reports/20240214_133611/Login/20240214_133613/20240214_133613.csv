@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,14-02-2024 13:36:28,14-02-2024 13:40:17,3m - 49.176s,PASSED
+,,,,,,,
+Test Cases/Login/Login - Berhasil,,,,14-02-2024 13:36:29,14-02-2024 13:37:51,1m - 22.112s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 13:36:30,14-02-2024 13:37:31,1m - 1.526s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.ImageView""), 0)",,,,14-02-2024 13:37:31,14-02-2024 13:37:33,1.983s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.LinearLayout""), 0)",,,,14-02-2024 13:37:33,14-02-2024 13:37:35,1.398s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText""), 0)",,,,14-02-2024 13:37:35,14-02-2024 13:37:36,1.785s,PASSED
+"setText(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText""), username, 0)",,,,14-02-2024 13:37:36,14-02-2024 13:37:39,2.675s,PASSED
+hideKeyboard(),,,,14-02-2024 13:37:39,14-02-2024 13:37:41,1.827s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText (1)""), 0)",,,,14-02-2024 13:37:41,14-02-2024 13:37:41,0.421s,PASSED
+"setText(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText (1)""), password, 0)",,,,14-02-2024 13:37:41,14-02-2024 13:37:44,2.297s,PASSED
+hideKeyboard(),,,,14-02-2024 13:37:44,14-02-2024 13:37:45,1.629s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 13:37:45,14-02-2024 13:37:46,0.508s,PASSED
+closeApplication(),,,,14-02-2024 13:37:46,14-02-2024 13:37:49,2.848s,PASSED
+Video,,,,14-02-2024 13:37:51,14-02-2024 13:37:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Login/Login - Berhasil,,,,14-02-2024 13:37:51,14-02-2024 13:39:07,1m - 15.899s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 13:37:51,14-02-2024 13:38:42,51.502s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.ImageView""), 0)",,,,14-02-2024 13:38:42,14-02-2024 13:38:45,2.737s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.LinearLayout""), 0)",,,,14-02-2024 13:38:45,14-02-2024 13:38:46,1.325s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText""), 0)",,,,14-02-2024 13:38:46,14-02-2024 13:38:48,2.042s,PASSED
+"setText(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText""), username, 0)",,,,14-02-2024 13:38:48,14-02-2024 13:38:51,2.795s,PASSED
+hideKeyboard(),,,,14-02-2024 13:38:51,14-02-2024 13:38:55,3.858s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText (1)""), 0)",,,,14-02-2024 13:38:55,14-02-2024 13:38:56,0.771s,PASSED
+"setText(findTestObject(""Object Repository/Login Berhasil/android.widget.EditText (1)""), password, 0)",,,,14-02-2024 13:38:56,14-02-2024 13:38:58,2.493s,PASSED
+hideKeyboard(),,,,14-02-2024 13:38:58,14-02-2024 13:39:01,2.169s,PASSED
+"tap(findTestObject(""Object Repository/Login Berhasil/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 13:39:01,14-02-2024 13:39:01,0.513s,PASSED
+closeApplication(),,,,14-02-2024 13:39:01,14-02-2024 13:39:05,3.549s,PASSED
+Video,,,,14-02-2024 13:39:07,14-02-2024 13:39:07,0.003s,PASSED
+,,,,,,,
+Test Cases/Login/Variation - Username Salah,,,,14-02-2024 13:39:07,14-02-2024 13:40:17,1m - 10.633s,PASSED
+"startApplication(""C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk"", true)",,,,14-02-2024 13:39:07,14-02-2024 13:39:58,51.337s,PASSED
+"tap(findTestObject(""Object Repository/Login Gagal/android.widget.ImageView""), 0)",,,,14-02-2024 13:39:58,14-02-2024 13:40:01,2.835s,PASSED
+"tap(findTestObject(""Object Repository/Login Gagal/android.widget.LinearLayout""), 0)",,,,14-02-2024 13:40:01,14-02-2024 13:40:03,1.543s,PASSED
+"tap(findTestObject(""Object Repository/Login Gagal/android.widget.EditText""), 0)",,,,14-02-2024 13:40:03,14-02-2024 13:40:04,1.665s,PASSED
+"setText(findTestObject(""Object Repository/Login Gagal/android.widget.EditText""), ""Lalaye"", 0)",,,,14-02-2024 13:40:04,14-02-2024 13:40:07,2.314s,PASSED
+"tap(findTestObject(""Object Repository/Login Gagal/android.widget.EditText (1)""), 0)",,,,14-02-2024 13:40:07,14-02-2024 13:40:08,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Login Gagal/android.widget.EditText (1)""), ""@lalayeye01A"", 0)",,,,14-02-2024 13:40:08,14-02-2024 13:40:10,2.165s,PASSED
+hideKeyboard(),,,,14-02-2024 13:40:10,14-02-2024 13:40:12,1.880s,PASSED
+"tap(findTestObject(""Object Repository/Login Gagal/android.widget.Button - LOGIN""), 0)",,,,14-02-2024 13:40:12,14-02-2024 13:40:12,0.536s,PASSED
+closeApplication(),,,,14-02-2024 13:40:12,14-02-2024 13:40:15,3.159s,PASSED
+Video,,,,14-02-2024 13:40:17,14-02-2024 13:40:17,0.001s,PASSED

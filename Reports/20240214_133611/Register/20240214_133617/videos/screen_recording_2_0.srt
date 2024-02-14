@@ -1,0 +1,80 @@
+1
+00:00:00,137 --> 00:01:06,203
+1. startApplication("C:\Users\LENOVO\Downloads\Advantage+demo+3.2.apk", true)
+
+2
+00:01:06,206 --> 00:01:08,329
+5. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.ImageView"), 0)
+
+3
+00:01:08,331 --> 00:01:09,786
+9. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.LinearLayout"), 0)
+
+4
+00:01:09,788 --> 00:01:11,372
+13. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.TextView - SIGN UP TODAY"), 0)
+
+5
+00:01:11,373 --> 00:01:12,871
+17. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText"), 0)
+
+6
+00:01:12,874 --> 00:01:15,563
+21. setText(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText"), "Lalayeye", 0)
+
+7
+00:01:15,565 --> 00:01:16,485
+25. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText (1)"), 0)
+
+8
+00:01:16,486 --> 00:01:18,700
+29. setText(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText (1)"), "lalayeye@gmail.com", 0)
+
+9
+00:01:18,702 --> 00:01:20,751
+33. hideKeyboard()
+
+10
+00:01:20,753 --> 00:01:22,858
+37. setText(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText (2)"), "L@la1", 0)
+
+11
+00:01:22,861 --> 00:01:24,844
+41. hideKeyboard()
+
+12
+00:01:24,846 --> 00:01:25,448
+45. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText (3)"), 0)
+
+13
+00:01:25,450 --> 00:01:27,332
+49. hideKeyboard()
+
+14
+00:01:27,334 --> 00:01:29,576
+53. setText(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.EditText (3)"), "L@la1", 0)
+
+15
+00:01:29,578 --> 00:01:31,443
+57. hideKeyboard()
+
+16
+00:01:31,444 --> 00:01:37,647
+61. scrollToText("Receive exclusive offers and promotions")
+
+17
+00:01:37,649 --> 00:01:38,529
+65. if (verifyElementChecked(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions"), 0) == false)
+
+18
+00:01:38,531 --> 00:01:38,945
+3. tap(findTestObject("Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER"), 0)
+
+19
+00:01:38,948 --> 00:01:40,647
+69. tap(findTestObject("Object Repository/Register/Register - Username Already Exist/android.widget.Button - REGISTER"), 0)
+
+20
+00:01:40,649 --> 00:01:43,939
+73. closeApplication()
+
