@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import io.appium.java_client.AppiumDriver
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\Advantage+demo+3.2.apk', true)
 
@@ -61,23 +61,27 @@ if (Mobile.verifyElementChecked(findTestObject('Object Repository/Register/Regis
     Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - Receive exclusive offers and promotions'), 
         0)
 } else if (Mobile.verifyElementChecked(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions'), 
-    0 ) == false) {
+    0) == false) {
     Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.CheckBox - I agree to the Advantage.com Conditions'), 
         0)
-}else {
-	Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER'), 0)
+} else {
+    Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER'), 0)
 }
 
-timeout = 10
+timeout = 100
+
 AppiumDriver<?> driver = MobileDriverFactory.getDriver()
-def toast = driver.findElementByXPath("//android.widget.Toast")
+
+def toast = driver.findElementByXPath('//android.widget.Toast')
+
 for (i = 0; i < timeout; i++) {
     if (toast != null) {
         Mobile.scrollToText('USER NAME')
 
-        Mobile.setText(findTestObject('Register/Register - Berhasil/android.widget.TextView - USER NAME'), ''+i, 
-            0)
-		Mobile.hideKeyboard()
+        Mobile.setText(findTestObject('Register/Register - Berhasil/android.widget.TextView - USER NAME'), '' + i, 0)
+
+        Mobile.hideKeyboard()
+
         Mobile.scrollToText('Receive exclusive offers and promotions')
 
         Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.Button - REGISTER'), 0)
@@ -85,8 +89,6 @@ for (i = 0; i < timeout; i++) {
     
     timeout = 0
 }
-
-Mobile.tap(findTestObject('Object Repository/Register/Register - Berhasil/android.widget.ImageView'), 0)
 
 Mobile.closeApplication()
 

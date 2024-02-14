@@ -37,7 +37,5 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.Button - LOGIN'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login Berhasil/android.widget.ImageView'), 0)
-
 Mobile.closeApplication()
 
